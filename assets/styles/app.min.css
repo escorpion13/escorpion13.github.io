@@ -247,9 +247,6 @@ body {
 .container {
   background: url("../images/bg.jpg") repeat;
   width: 1000px;
-  -webkit-box-sizing: ;
-  -moz-box-sizing: ;
-  box-sizing: ;
   margin-left: auto;
   margin-right: auto;
 }
