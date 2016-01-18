@@ -323,7 +323,7 @@ body {
   cursor: pointer;
 }
 .data__item .data__input {
-  float: left;
+  width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -341,7 +341,11 @@ body {
   -moz-background-size: 100%;
   background-size: 100%;
 }
-.data__item--fullname .data__input {
+
+.data__block {
+  overflow: hidden;
+}
+/*.data__item--fullname .data__input {
   width: 630px;
 }
 .data__item--date .data__label {
@@ -372,7 +376,7 @@ body {
   width: 700px;
   padding-top: 5px;
   padding-bottom: 0;
-}
+}*/
 .htmlacademy {
   zoom: 1;
   margin-bottom: 23px;
